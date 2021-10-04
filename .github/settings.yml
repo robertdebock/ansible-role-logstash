@@ -3,6 +3,6 @@
 # Ansible managed
 #
 repository:
-  description: Install and configure logstash on your system.
+  description: Install and configure Logstash on your system.
   homepage: https://robertdebock.nl/
   topics: logstash, ansible, molecule, tox, playbook, hacktoberfest

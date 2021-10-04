@@ -1,6 +1,6 @@
 # [logstash](#logstash)
 
-Install and configure logstash on your system.
+Install and configure Logstash on your system.
 
 |GitHub|GitLab|Quality|Downloads|Version|
 |------|------|-------|---------|-------|
