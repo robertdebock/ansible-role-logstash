@@ -9,7 +9,7 @@
       ansible.builtin.ping:
 
     - name: check logstash version
-      command:
+      ansible.builtin.command:
         cmd: /usr/share/logstash/bin/logstash --version
       register: logstash_test_one
       failed_when:
