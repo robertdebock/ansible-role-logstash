@@ -1,0 +1,13 @@
+digraph PhiloDilemma {
+  label = "Robert de Bock" ;
+  overlap=false
+  {
+    "logstash" [fillcolor=yellow style=filled penwidth=3]
+    "robertdebock.bootstrap" [fillcolor=green style=filled]
+    "robertdebock.core_dependencies" [fillcolor=green style=filled]
+    "robertdebock.elastic_repo" [fillcolor=green style=filled]
+  }
+  "logstash" -> "robertdebock.bootstrap"
+  "logstash" -> "robertdebock.core_dependencies"
+  "logstash" -> "robertdebock.elastic_repo"
+}
