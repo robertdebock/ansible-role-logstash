@@ -1,4 +1,4 @@
-# Ansible role [logstash](#logstash)
+# [Ansible role logstash](#logstash)
 
 Install and configure Logstash on your system.
 
